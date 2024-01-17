@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Course</title>
+  </head>
+  <body>
+    <div id="app">
+      <form class="lg:max-w-2xl max-w-sm mx-auto my-10 px-6 py-8 bg-slate-800 rounded-md flex flex-col gap-5" id="formAddUser" autocomplete="off">
+        <input type="text" placeholder="Username" class="p-2 py-3 rounded-md outline-none text-slate-300 bg-slate-600" id="username">
+        <input type="email" placeholder="Email" class="p-2 py-3 rounded-md outline-none text-slate-300 bg-slate-600" id="email">
+        <button class="bg-slate-900 text-slate-100 outline-none rounded-md py-3" type="submit">Add User</button>
+      </form>
+      <div class="max-w-2xl rounded-md mx-auto my-10 p-4 flex items-center justify-start">
+        <ul id="usersBox" class="flex flex-col gap-4 list-none w-full p-4 rounded-md"></ul>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
