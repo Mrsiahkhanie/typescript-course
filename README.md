@@ -1,1 +1,1 @@
-Project Add User and Save in LocalStorage With use TypeScript --- Vite - Vanilla ts ---
+Project Add User and Save in LocalStorage With use TypeScript & TailwindCss --- Vite - Vanilla ts ---
